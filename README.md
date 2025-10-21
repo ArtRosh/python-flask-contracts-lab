@@ -5,6 +5,26 @@ It contains two main routes: one for retrieving contract information and one for
 
 ---
 
+## 🧭 How to Run
+
+1. Install dependencies:
+```bash
+   pipenv install
+```
+2. Activate the virtual environment:
+```bash
+   pipenv shell
+```
+3. Run the server:
+```bash
+   python server/app.py
+```
+4. Open your browser and navigate to:
+```bash
+   http://127.0.0.1:5555
+```
+---
+
 ## 📦 Routes
 
 ### `/contract/<id>`
@@ -34,5 +54,6 @@ Example of `/contract/3` response in the browser.
 ## 🧰 Tech Stack
 - Python 3
 - Flask
+- Pipenv
 
 ---
